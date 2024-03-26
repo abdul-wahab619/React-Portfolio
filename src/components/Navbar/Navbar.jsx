@@ -1,15 +1,22 @@
 import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils.js";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [menuOpen, setMenuOPen] = useState(false);
 
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <motion.a
+        whileHover={{ scale: 1.2 }}
+        onHoverStart={(e) => {}}
+        onHoverEnd={(e) => {}}
+        className={styles.title}
+        href="/"
+      >
         Porfolio
-      </a>
+      </motion.a>
       <div className={styles.menu}>
         <img
           className={styles.menuBtn}

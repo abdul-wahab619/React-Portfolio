@@ -39,6 +39,15 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 200%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+.skillImageContanier:hover {
+  cursor: pointer;
+  background-size: 100% 100%;
 }
 .skillImageContanier img {
   width: 75px;
@@ -59,11 +68,19 @@
   flex-direction: row;
   align-items: center;
   gap: 17px;
-  background: #19376d;
-  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
   border-radius: 10px;
   padding: 24px;
+  background: #19376d;
+  background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
 }
+.historyItem:hover {
+  cursor: pointer;
+  background-size: 100% 100%;
+}
+
 .historyItem img {
   width: 50px;
 }

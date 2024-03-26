@@ -22,7 +22,25 @@
   align-items: center;
 }
 .aboutImage {
-  width: 35%;
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+  margin-right: 20px;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 10px);
+  }
+  100% {
+    transform: translate(0, -10px);
+  }
 }
 .aboutItems {
   color: var(--color-text);
@@ -47,6 +65,7 @@
   transition: 0.4s;
 }
 .aboutItem:hover {
+  cursor: pointer;
   background-size: 100% 100%;
 }
 .aboutItem h3 {

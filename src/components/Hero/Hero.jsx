@@ -1,6 +1,7 @@
+import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./Hero.module.css";
-import React from "react";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -11,15 +12,31 @@ const Hero = () => {
           I'm a full-stack developer with over 2 years of experience of MERN.
           Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:awminhas619@gmail.com" className={styles.contactBtn}>
+        <motion.a
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+          href="mailto:awminhas619@gmail.com"
+          className={styles.contactBtn}
+        >
           Contact Me
-        </a>
+        </motion.a>
       </div>
-      <img
-        src={getImageUrl("hero/heroImage.png")}
-        className={styles.heroImage}
-        alt="hero-image"
-      />
+      <motion.div
+        className={styles.img}
+        animate={{
+          x: 80,
+          y: 50,
+          scale: 1,
+          rotate: 0,
+        }}
+      >
+        <img
+          src={getImageUrl("hero/linkedin.jpg")}
+          className={styles.heroImage}
+          alt="hero-image"
+        />
+      </motion.div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>

@@ -1,6 +1,7 @@
 import React from "react";
 import { getImageUrl } from "../../utils";
 import styles from "./ProjectCard.module.css";
+import { motion } from "framer-motion";
 
 const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
@@ -24,12 +25,24 @@ const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <motion.a
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+          href={demo}
+          className={styles.link}
+        >
           Demo
-        </a>
-        <a href={source} className={styles.link}>
+        </motion.a>
+        <motion.a
+          whileHover={{ scale: 1.2 }}
+          onHoverStart={(e) => {}}
+          onHoverEnd={(e) => {}}
+          href={source}
+          className={styles.link}
+        >
           Source
-        </a>
+        </motion.a>
       </div>
     </div>
   );

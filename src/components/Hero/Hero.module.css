@@ -45,9 +45,17 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-.heroImage {
-  width: 50%;
+.img {
+  width: 60%;
+  height: 60%;
   z-index: 1;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-left: 20px;
   animation-name: floating;
   animation-duration: 3s;
   animation-iteration-count: infinite;
