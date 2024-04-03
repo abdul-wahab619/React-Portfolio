@@ -7,10 +7,18 @@ const ProjectCard = ({
   project: { title, imageSrc, description, skills, demo, source },
 }) => {
   return (
-    <div className={styles.container}>
-      <img
+    <motion.div
+      whileHover={{scale: 1.2}}
+      onHoverStart={(e) => {}}
+      onHoverEnd={(e) => {}}
+      className={styles.container}
+    >
+      <motion.img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
+        whileHover={{ scale: 1.6 }}
+        onHoverStart={(e) => {}}
+        onHoverEnd={(e) => {}}
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>
@@ -44,7 +52,7 @@ const ProjectCard = ({
           Source
         </motion.a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

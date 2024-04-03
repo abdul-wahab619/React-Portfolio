@@ -1,50 +1,50 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Blogify",
+    "imageSrc": "projects/blogify.png",
+    "description": "It is simply a Blog Web app which is built with full-Stack and also use Authentication system",
+    "skills": ["EJS", "ExpressJs", "NodeJs", "MongoDb"],
+    "demo": "https://ejs-blogify-app.up.railway.app/",
+    "source": "https://github.com/abdul-wahab619/Blogify"
+  },
+  {
+    "title": "Chatt App",
+    "imageSrc": "projects/chatapp.png",
+    "description": "ChatEngine.io for real-time messaging. Handles authentication and message management.",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://github.com/abdul-wahab619/chat-app",
+    "source": "https://github.com/abdul-wahab619/chat-app"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "MediCare",
+    "imageSrc": "projects/medicare.png",
+    "description": "This project is basically AI Medical Laboratory (AI-MedLab)",
+    "skills": ["React", "Express", "Node", "MongoDb", "AI/ML"],
+    "demo": "https://medi-care-plum.vercel.app/",
+    "source": "https://github.com/abdul-wahab619/AI-MedLab"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "SoundDZingn",
+    "imageSrc": "projects/sound.png",
+    "description": "This project is Sound Tracker System and also integrate with Socket.io",
+    "skills": ["Html/CSS", "ReactJs", "SaaS/CSS3"],
+    "demo": "https://sound-dzign.vercel.app/",
+    "source": "https://github.com/abdul-wahab619/SoundDZign"
   },
   {
-    "title": "Project D",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "GameHub",
+    "imageSrc": "projects/gamehub.png",
+    "description": "This project is basically fetching API of games and built attractive UI.",
+    "skills": ["ReactJs", "TypeScript", "API"],
+    "demo": "https://game-hub-iota-eight.vercel.app/",
+    "source": "https://github.com/abdul-wahab619/ApiGame-Hub"
   },
   {
-    "title": "Project E",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Shoe Vista",
+    "imageSrc": "projects/shoevista.png",
+    "description": "This is shoe website and very good experience with UI.",
+    "skills": ["HTML", "CSS", "JS"],
+    "demo": "https://shoe-vista.vercel.app/",
+    "source": "https://github.com/abdul-wahab619/ShoeVista"
   }
 ]
